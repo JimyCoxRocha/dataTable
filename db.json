@@ -197,66 +197,6 @@
           "Error: No se encontro información del usuario y/o endpoint a consumir, por favor intente nuevamente o comuniquese con el administrador."
         ]
       }
-    },
-    {
-      "dateInput": "2021-07-07 21:32:03",
-      "dateOutput": "2021-07-07 21:32:03",
-      "pathController": "/v1/producto/",
-      "pathEndpoint": "/find",
-      "dataInput": {
-        "user": "101",
-        "params": [],
-        "paramTable": []
-      },
-      "dataOutput": {
-        "model": [],
-        "rows": [],
-        "cols": [],
-        "message": [
-          "Proceso ejecutado correctamente."
-        ],
-        "numRows": 0,
-        "typeError": "OK"
-      }
-    },
-    {
-      "dateInput": "2021-07-07 21:49:43",
-      "dateOutput": "2021-07-07 21:49:43",
-      "pathController": "/v1/producto/",
-      "pathEndpoint": "/find",
-      "dataInput": {
-        "user": "101",
-        "params": [],
-        "paramTable": []
-      },
-      "dataOutput": {
-        "model": [],
-        "rows": [],
-        "cols": [],
-        "message": [
-          "Proceso ejecutado correctamente."
-        ],
-        "numRows": 0,
-        "typeError": "OK"
-      }
-    },
-    {
-      "dateInput": "2021-07-09 09:00:14",
-      "dateOutput": "2021-07-09 09:16:28",
-      "pathController": "/v1/cliente/",
-      "pathEndpoint": "/find",
-      "dataInput": {
-        "user": "101",
-        "params": [],
-        "paramTable": []
-      },
-      "dataOutput": {
-        "numRows": 0,
-        "typeError": "SAP",
-        "message": [
-          "Field PO_SALES_DATA is not a member of TABLES"
-        ]
-      }
     }
   ]
 }
