@@ -196,5 +196,137 @@
         "Error: No se encontro información del usuario y/o endpoint a consumir, por favor intente nuevamente o comuniquese con el administrador."
       ]
     }
+  },
+  {
+    "dateInput": "2021-07-07 21:32:03",
+    "dateOutput": "2021-07-07 21:32:03",
+    "pathController": "/v1/producto/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "101",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "model": [],
+      "rows": [],
+      "cols": [],
+      "message": [
+        "Proceso ejecutado correctamente."
+      ],
+      "numRows": 0,
+      "typeError": "OK"
+    }
+  },
+  {
+    "dateInput": "2021-07-07 21:49:43",
+    "dateOutput": "2021-07-07 21:49:43",
+    "pathController": "/v1/producto/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "101",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "model": [],
+      "rows": [],
+      "cols": [],
+      "message": [
+        "Proceso ejecutado correctamente."
+      ],
+      "numRows": 0,
+      "typeError": "OK"
+    }
+  },
+  {
+    "dateInput": "2021-07-09 09:00:14",
+    "dateOutput": "2021-07-09 09:16:28",
+    "pathController": "/v1/cliente/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "101",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "numRows": 0,
+      "typeError": "SAP",
+      "message": [
+        "Field PO_SALES_DATA is not a member of TABLES"
+      ]
+    }
+  },
+  {
+    "dateInput": "2021-07-08 08:48:15",
+    "dateOutput": "2021-07-08 08:48:15",
+    "pathController": "/v1/producto/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "102",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "numRows": 0,
+      "typeError": "CLIENTE",
+      "message": [
+        "Error: No se encontro información del usuario y/o endpoint a consumir, por favor intente nuevamente o comuniquese con el administrador."
+      ]
+    }
+  },
+  {
+    "dateInput": "2021-07-08 16:22:12",
+    "dateOutput": "2021-07-08 16:24:01",
+    "pathController": "/v1/producto/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "101",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "numRows": 0,
+      "typeError": "SAP",
+      "message": [
+        "Initialization of repository destination mySAPSystem101 failed: Connect to SAP gateway failed\nConnection parameters: TYPE=A DEST=mySAPSystem101 ASHOST=192.168.200.6 SYSNR=04 PCS=1\n\nLOCATION    CPIC (TCP/IP) on local host with Unicode\nERROR       partner '192.168.200.6:3304' not reached\nTIME        Thu Jul 08 16:22:42 2021\nRELEASE     721\nCOMPONENT   NI (network interface)\nVERSION     40\nRC          -10\nMODULE      nixxi.cpp\nLINE        3289\nDETAIL      NiPConnect2: 192.168.200.6:3304\nSYSTEM CALL connect\nERRNO       10060\nERRNO TEXT  WSAETIMEDOUT: Connection timed out\nCOUNTER     3\n"
+      ]
+    }
+  },
+  {
+    "dateInput": "2021-07-08 11:18:10",
+    "dateOutput": "2021-07-08 11:19:31",
+    "pathController": "/v1/producto/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "101",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "numRows": 0,
+      "typeError": "SAP",
+      "message": [
+        "Initialization of destination mySAPSystem101 failed: Connect to SAP gateway failed\nConnection parameters: TYPE=A DEST=mySAPSystem101 ASHOST=192.168.200.6 SYSNR=02 SAPROUTER=/H/52.251.43.70/H/ PCS=1\n\nLOCATION    SAProuter 40.4 on 'SAPROUTER'\nERROR       partner '192.168.200.6:3302' not reached\nTIME        Thu Jul 08 11:18:45 2021\nRELEASE     753\nCOMPONENT   NI (network interface)\nVERSION     40\nRC          -92\nMODULE      D:/depot/bas/753_REL/src/base/ni/nixxi.cpp\nLINE        3449\nDETAIL      NiPConnect2: 192.168.200.6:3302\nSYSTEM CALL connect\nERRNO       10061\nERRNO TEXT  WSAECONNREFUSED: Connection refused\nCOUNTER     53379\n"
+      ]
+    }
+  },
+  {
+    "dateInput": "2021-07-08 11:43:57",
+    "dateOutput": "2021-07-08 11:45:56",
+    "pathController": "/v1/producto/",
+    "pathEndpoint": "/find",
+    "dataInput": {
+      "user": "101",
+      "params": [],
+      "paramTable": []
+    },
+    "dataOutput": {
+      "numRows": 0,
+      "typeError": "SAP",
+      "message": [
+        "Initialization of repository destination mySAPSystem101 failed: Connect to SAP gateway failed\nConnection parameters: TYPE=A DEST=mySAPSystem101 ASHOST=192.168.200.6 SYSNR=04 PCS=1\n\nLOCATION    CPIC (TCP/IP) on local host with Unicode\nERROR       partner '192.168.200.6:3304' not reached\nTIME        Thu Jul 08 11:45:14 2021\nRELEASE     721\nCOMPONENT   NI (network interface)\nVERSION     40\nRC          -10\nMODULE      nixxi.cpp\nLINE        3289\nDETAIL      NiPConnect2: 192.168.200.6:3304\nSYSTEM CALL connect\nERRNO       10060\nERRNO TEXT  WSAETIMEDOUT: Connection timed out\nCOUNTER     3\n"
+      ]
+    }
   }
 ]
