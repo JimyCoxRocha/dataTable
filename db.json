@@ -161,42 +161,6 @@
           "Initialization of repository destination mySAPSystem101 failed: Connect to SAP gateway failed\nConnection parameters: TYPE=A DEST=mySAPSystem101 ASHOST=192.168.200.6 SYSNR=04 PCS=1\n\nLOCATION    CPIC (TCP/IP) on local host with Unicode\nERROR       partner '192.168.200.6:3304' not reached\nTIME        Thu Jul 08 12:24:55 2021\nRELEASE     721\nCOMPONENT   NI (network interface)\nVERSION     40\nRC          -10\nMODULE      nixxi.cpp\nLINE        3289\nDETAIL      NiPConnect2: 192.168.200.6:3304\nSYSTEM CALL connect\nERRNO       10060\nERRNO TEXT  WSAETIMEDOUT: Connection timed out\nCOUNTER     3\n"
         ]
       }
-    },
-    {
-      "dateInput": "2021-07-09 08:48:18",
-      "dateOutput": "2021-07-09 08:48:50",
-      "pathController": "/v1/cliente/",
-      "pathEndpoint": "/find",
-      "dataInput": {
-        "user": "101",
-        "params": [],
-        "paramTable": []
-      },
-      "dataOutput": {
-        "numRows": 0,
-        "typeError": "SAP",
-        "message": [
-          "Initialization of repository destination mySAPSystem101 failed: Connect to SAP gateway failed\nConnection parameters: TYPE=A DEST=mySAPSystem101 ASHOST=192.168.200.6 SYSNR=04 PCS=1\n\nLOCATION    CPIC (TCP/IP) on local host with Unicode\nERROR       partner '192.168.200.6:3304' not reached\nTIME        Fri Jul 09 08:48:44 2021\nRELEASE     721\nCOMPONENT   NI (network interface)\nVERSION     40\nRC          -10\nMODULE      nixxi.cpp\nLINE        3289\nDETAIL      NiPConnect2: 192.168.200.6:3304\nSYSTEM CALL connect\nERRNO       10060\nERRNO TEXT  WSAETIMEDOUT: Connection timed out\nCOUNTER     3\n"
-        ]
-      }
-    },
-    {
-      "dateInput": "2021-07-07 21:23:59",
-      "dateOutput": "2021-07-07 21:23:59",
-      "pathController": "/v1/producto/",
-      "pathEndpoint": "/find",
-      "dataInput": {
-        "user": "102",
-        "params": [],
-        "paramTable": []
-      },
-      "dataOutput": {
-        "numRows": 0,
-        "typeError": "OK",
-        "message": [
-          "Error: No se encontro información del usuario y/o endpoint a consumir, por favor intente nuevamente o comuniquese con el administrador."
-        ]
-      }
     }
   ]
 }
